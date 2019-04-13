@@ -26,6 +26,10 @@
 6.  名稱 `PYTHONPATH` 值 `C:\inetpub\wwwroot\repo\src`
 7.  名稱 `WSGI_HANDLER` 值 `django.core.wsgi.get_wsgi_application()`
 
+#### Note  
+
+可能會需要額外安裝`wfastcgi==3.0.0`及`whitenoise==3.3.1`
+
 ### 新增網站至 IIS
 
 1.  在現有站台上點右鍵 `新增網站`
